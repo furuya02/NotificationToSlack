@@ -10,7 +10,7 @@ import fs = require('fs');
 //******************************************************************** */
 // 設定
 //******************************************************************** */
-// エラーを検出する対象のLambda関数
+// 対象のLambda関数
 const targetFunction = 'productFunction';
 // Slackの通知先
 const webhook = '/services/xxxxxxxx/xxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx';
