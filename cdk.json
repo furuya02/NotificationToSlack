@@ -1,0 +1,3 @@
+{
+  "app": "npx ts-node bin/notification_to_slack.ts"
+}

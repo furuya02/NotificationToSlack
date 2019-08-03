@@ -1,0 +1,8 @@
+*.js
+*.d.ts
+node_modules
+!lambda/createSubscription/index.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
