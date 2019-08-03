@@ -3,7 +3,7 @@ import 'source-map-support/register';
 import cdk = require('@aws-cdk/core');
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as iam from '@aws-cdk/aws-iam';
-import cfn = require('@aws-cdk/aws-cloudformation');
+import * as cfn from '@aws-cdk/aws-cloudformation';
 
 import fs = require('fs');
 
