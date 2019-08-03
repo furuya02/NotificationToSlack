@@ -30,10 +30,12 @@ exports.handler = (event, context) => {
         logs.putSubscriptionFilter(params, (err, data) => {
             send(event, context, err, data);
         });
-    } else {
+    } else if (requestType == 'Delete') {
         logs.deleteSubscriptionFilter(params, (err, data) => {
             send(event, context, err, data);
         });
+    } else {
+        send(event, context, null, {});
     }
 };
 
